@@ -1,6 +1,6 @@
 Name: glassfish-dtd-parser
 Version: 1.2
-Release: 0.7.20120120svn%{?dist}
+Release: 0.8.20120120svn%{?dist}
 Summary: Library for parsing XML DTDs
 Group: Development/Libraries
 License: CDDL 1.1 and GPLv2 with exceptions
@@ -51,6 +51,9 @@ This package contains javadoc for %{name}.
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-0.8.20120120svn
+- Mass rebuild 2013-12-27
+
 * Thu Oct 24 2013 Ade Lee <alee@redhat.com> - 1.2-0.7.20120120svn
 - Resolves: rhbz#1017803 - glassfish-fastinfoset: mock build failed on RHEL 7
 
